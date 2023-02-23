@@ -36,10 +36,7 @@
                 huvudstad = "San Marino",
                 invånarantal = "33600"
             };
-            sverige.Print();
-            tyskland.Print();
-            sanMarino.Print();
- 
+            
             Land[] landarr = new Land[7];
             landarr[0] = sverige;
             landarr[1] = tyskland;
@@ -72,6 +69,7 @@
                 huvudstad = "Bukarest",
                 invånarantal = "19760314"
             };
+            foreach (Land land in landarr) { land.Print(); }
         }
     }
 }
