@@ -8,6 +8,10 @@
             public string styrestyp = "";
             public string huvudstad = "";
             public string invånarantal = "";
+            public void Print() 
+            {
+                Console.WriteLine($"{namn}  {styrestyp}  {huvudstad}  {invånarantal}\n");
+            }
         }
         static void Main(string[] args)
         {
@@ -32,6 +36,9 @@
                 huvudstad = "San Marino",
                 invånarantal = "33600"
             };
+            sverige.Print();
+            tyskland.Print();
+            sanMarino.Print();
         }
     }
 }
