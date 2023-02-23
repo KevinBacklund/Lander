@@ -70,6 +70,10 @@
                 invånarantal = "19760314"
             };
             foreach (Land land in landarr) { land.Print(); }
+            for (int i = 0; i < landarr.Length; i++)
+            {
+                if (landarr[i].styrestyp == "republik") { Console.WriteLine(landarr[i].namn); } 
+            }
         }
     }
 }
